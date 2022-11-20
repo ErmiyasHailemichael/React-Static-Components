@@ -9,7 +9,7 @@ import Visitors from './Components/Visitors'
 import './index.css'
 function App() {
   return (
-    <div className="App">
+    <div className="app-dashboard">
       <Analysis />
       <Dashboard />
       <Rating/>
