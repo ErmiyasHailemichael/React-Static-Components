@@ -1,9 +1,20 @@
 
 body{
-  background-color: #282A3A;
+  /* background-color: #282A3A; */
 }
-.app-dashboard{
-  height: 700px;
-  width: 750px;
+.app-grid{
+  height: 600px;
+  width: 950px;
   margin: 20px;
+  padding: 1em;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 3fr);
+  /* grid-template-rows: ; */
+  grid-gap: 1em;
 }
+.app-grid > div{
+  background: #eee;
+  padding:1em;
+}
+

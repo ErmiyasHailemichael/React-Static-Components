@@ -9,11 +9,11 @@ import Visitors from './Components/Visitors'
 import './index.css'
 function App() {
   return (
-    <div className="app-dashboard">
-      <Analysis />
+    <div className="app-grid">
       <Dashboard />
-      <Rating/>
       <Reviews/>
+      <Rating/>
+      <Analysis />
       <Visitors/>
     </div>
   );
