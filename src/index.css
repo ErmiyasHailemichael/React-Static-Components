@@ -21,7 +21,7 @@
     "DASHBOAR VISITORS VISITORS VISITORS";
 }
 .app-grid > div{
-  background: #2B3A55;
+  background: #5c617c;
   color: white;
   padding:1em;
   position: relative;
@@ -41,8 +41,8 @@
 .VISITORS { grid-area: VISITORS; }
 
 .visitcontainer{
-  height: 100px;
+  height: 200px;
   width: 500px;
   margin: auto;
-  background-color: beige;
+  background-color: #9355ff;
 }
