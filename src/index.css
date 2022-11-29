@@ -6,9 +6,9 @@
   background: #282A3A;
   height: 600px;
   width: 950px;
-  /* margin: 20px; */
-  padding: 5px;
-  text-align: center;
+  margin: 20px;
+  padding: 50px;
+  /* text-align: center; */
   display: grid;
   grid-gap: 2em;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -21,11 +21,16 @@
     "DASHBOAR VISITORS VISITORS VISITORS";
 }
 .app-grid > div{
-  background: #eee;
+  background: #2B3A55;
+  color: white;
   padding:1em;
   position: relative;
 }
-.DASHBOAR { grid-area: DASHBOAR; }
+.DASHBOAR { 
+  grid-area: DASHBOAR;
+  /* height: 500px;
+  width: 200px; */
+ }
 
 .REVIEWS { grid-area: REVIEWS; }
 
@@ -41,23 +46,3 @@
   margin: auto;
   background-color: beige;
 }
-/*  */
-
-/* 
-.analysis-board{
-
-}
-
-.dashboard-lists{
-
-}
-.rating-list{
-
-}
-.reviews{
-
-}
-
-.visitors{
-
-} */
