@@ -9,13 +9,15 @@ import Visitors from './Components/Visitors'
 import './index.css'
 function App() {
   return (
+    
     <div className="app-grid">
-      <Dashboard />
-      <Reviews/>
-      <Rating/>
-      <Analysis />
-      <Visitors/>
+    <div class="DASHBOAR"><Dashboard/></div>
+    <div class="REVIEWS"><Reviews/></div>
+    <div class="RATINGS"><Rating/></div>
+    <div class="ANALYSIS"><Analysis/></div>
+    <div class="VISITORS"><Visitors/></div>
     </div>
+    
   );
 }
 

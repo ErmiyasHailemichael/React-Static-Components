@@ -3,8 +3,8 @@ import React from 'react';
 function Reviews () {
     return(
         <div className="reviews">
-            <h2>Reviews</h2>
-            <h3>1281</h3>
+            <h3>Reviews</h3>
+            <h2>1281</h2>
         </div>
     )
 }

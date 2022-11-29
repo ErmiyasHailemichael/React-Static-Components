@@ -1,20 +1,63 @@
 
-body{
-  /* background-color: #282A3A; */
-}
+/* body{
+  background-color: #282A3A;
+} */
 .app-grid{
+  background: #282A3A;
   height: 600px;
   width: 950px;
-  margin: 20px;
-  padding: 1em;
+  /* margin: 20px; */
+  padding: 5px;
   text-align: center;
   display: grid;
-  grid-template-columns: repeat(4, 3fr);
-  /* grid-template-rows: ; */
-  grid-gap: 1em;
+  grid-gap: 2em;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1.5fr 0.1fr 2.1fr;
+  gap: 20px 25px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "DASHBOAR REVIEWS RATINGS ANALYSIS"
+    "DASHBOAR REVIEWS RATINGS ANALYSIS"
+    "DASHBOAR VISITORS VISITORS VISITORS";
 }
 .app-grid > div{
   background: #eee;
   padding:1em;
+  position: relative;
+}
+.DASHBOAR { grid-area: DASHBOAR; }
+
+.REVIEWS { grid-area: REVIEWS; }
+
+.RATINGS { grid-area: RATINGS; }
+
+.ANALYSIS { grid-area: ANALYSIS; }
+
+.VISITORS { grid-area: VISITORS; }
+
+.visitcontainer{
+  height: 100px;
+  width: 500px;
+  margin: auto;
+  background-color: beige;
+}
+/*  */
+
+/* 
+.analysis-board{
+
 }
 
+.dashboard-lists{
+
+}
+.rating-list{
+
+}
+.reviews{
+
+}
+
+.visitors{
+
+} */
